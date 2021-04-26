@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Clients\Client1\" />
+    <Folder Include="Clients\Client2\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaperRulezServices\PaperRulezServices.csproj" />
+  </ItemGroup>
+
+</Project>
